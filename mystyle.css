@@ -1,0 +1,27 @@
+body{
+    background-color:darkseagreen;
+}
+div {
+    width: 500px;
+    height: 250px;
+    font-weight: bold;
+    position: relative;
+    animation: forward 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes forward {
+    from {left: 0px;}
+    to {left: 700px;} 
+    from {background-color: darksalmon;}
+    to{background-color: rgb(223, 200, 67);}
+}
+  h1,h2,p{
+    text-align: center;
+  }
+  img:hover {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation-iteration-count: infinite;
+}
